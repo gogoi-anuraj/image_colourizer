@@ -1,0 +1,33 @@
+image-colorization/
+│
+├── app/                          # Streamlit app (UI)
+│   ├── app.py                    # Main Streamlit UI
+│   ├── model.py                  # Load model + inference
+│   └── utils.py                  # Preprocessing & postprocessing
+│
+├── src/                          # Core ML pipeline
+│   ├── dataset.py                # Dataset + preprocessing
+│   ├── models.py                 # Autoencoder, U-Net, ResNet U-Net
+│   ├── train_autoencoder.py
+│   ├── train_unet.py
+│   ├── train_resnet_unet.py
+│   └── evaluation.py             # PSNR, SSIM evaluation
+│ 
+│
+├── model_pth/                       # Saved model weights
+│   ├── autoencoder.pth
+│   ├── unet.pth
+│   └── resnet_unet_perc.pth
+│
+│
+├── model_images/                      # Images for readme
+│   ├── Autoencoder/
+│   ├── UNet/
+│   └── resnet-unet/
+│
+├── notebook/                    # Development notebooks
+│   └── colorizer.ipynb
+│
+├── requirements.txt              # Dependencies
+├── .gitignore
+└── README.md                     # Project documentation
