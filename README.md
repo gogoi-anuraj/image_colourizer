@@ -125,7 +125,7 @@ We evaluate models using:
 
 The observed results highlight important differences between model architectures and loss functions in image colorization.
 
-### 🔹 Autoencoder (Baseline)
+### 1. Autoencoder (Baseline)
 
 * Achieves relatively high PSNR and SSIM
 * Tends to produce **smooth and averaged color predictions**
@@ -138,7 +138,7 @@ The observed results highlight important differences between model architectures
 
 ---
 
-###  U-Net
+### 2. U-Net
 
 * Performs lower than expected in this setup
 * Possible reasons:
@@ -154,7 +154,7 @@ The observed results highlight important differences between model architectures
 
 ---
 
-###  ResNet U-Net (Final Model)
+### 3. ResNet U-Net (Final Model)
 
 * Achieves the best performance across both metrics
 * Key improvements:
@@ -246,14 +246,11 @@ We built an interactive UI using Streamlit:
 pip install -r requirements.txt
 ```
 
----
-
 ###  2. Run Streamlit App
 
 ```bash
 streamlit run app/app.py
 ```
----
 
 ###  3. Train Models
 
@@ -268,6 +265,8 @@ python src/train_resnet_unet.py
 ```bash
 python src/evaluation.py
 ```
+
+---
 
 ## Project Structure
 
