@@ -17,7 +17,7 @@ image-colorization/
 ├── model_pth/                       # Saved model weights
 │   ├── autoencoder.pth
 │   ├── unet.pth
-│   └── resnet_unet_perc.pth
+│   └── resnet_unet.pth
 │
 │
 ├── model_images/                      # Images for readme
