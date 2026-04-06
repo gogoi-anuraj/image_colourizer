@@ -49,10 +49,6 @@ h3 {
 
 
 
-
-# Title
-# st.title("Image Colorization")
-# st.write("Upload a grayscale and see it colorized using deep learning.")
 st.markdown("""
 <h1>AI Image Colorization</h1>
 <p style='text-align:center; color:gray;'>
