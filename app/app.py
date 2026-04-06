@@ -35,8 +35,6 @@ h3 {
     background-color: #4CAF50;
     color: white;
     border-radius: 10px;
-    height: 3em;
-    width: 25%;
     font-size: 16px;
 }
 
