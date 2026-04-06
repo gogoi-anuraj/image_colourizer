@@ -43,7 +43,7 @@ def main():
         "data/places365"
     ]
 
-    save_path = "models/resnet_unet_perc.pth"
+    save_path = "models/resnet_unet.pth"
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print("Using device:", device)
