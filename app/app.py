@@ -98,7 +98,7 @@ if uploaded_file is not None:
     byte_im = buf.getvalue()
 
     st.download_button(
-        label="Download Colorized Image",
+        label="download",
         data=byte_im,
         file_name="colorized.png",
         mime="image/png"
