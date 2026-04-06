@@ -296,6 +296,12 @@ model_pth/     → Saved weights
 
 ---
 
+## Demo Link
+
+https://gogoi-anuraj-image-colourizer-appapp-f0zofb.streamlit.app
+
+---
+
 ##  Author
 
 Anuraj Gogoi
